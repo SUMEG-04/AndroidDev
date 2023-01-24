@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#AACAC7C8"
     tools:context=".thirdActivity3">
 
     <EditText
@@ -12,6 +14,7 @@
         android:layout_height="50dp"
         android:autofillHints=""
         android:ems="10"
+        android:hint="@string/Enter_time"
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,12 +28,14 @@
         android:id="@+id/spinner2"
         android:layout_width="48dp"
         android:layout_height="50dp"
+        android:backgroundTint="#E1CDCD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/editTextNumberDecimal"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintVertical_bias="0.114"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView8"
@@ -47,8 +52,8 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="184dp"
-        android:layout_height="45dp"
+        android:layout_width="185dp"
+        android:layout_height="65dp"
         android:gravity="center"
         android:text="@string/textview"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,4 +61,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.345" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
