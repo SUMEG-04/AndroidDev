@@ -19,4 +19,8 @@
     <string name="enter_unit">0</string>
     <string name="select_unit">select unit</string>
     <string name="result">0.0</string>
+    <string name="textview13">TextView</string>
+    <string name="textview15">TextView</string>
+    <string name="textview12">TextView</string>
+    <string name="Convert">convert</string>
 </resources>
