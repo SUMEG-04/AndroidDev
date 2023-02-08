@@ -1,0 +1,826 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">csSyllabus</string>
+    <string name="textview">
+         <big><big><b>Computer System Architecture\n
+        (BHCS02)\n
+        Discipline Specific Core Course\n
+        (DSC) Credit: 06</b></big></big>
+        \n\n
+
+
+        <b>Course Objective</b>\n
+This course introduces the students to the fundamental concepts of digital computer organization,
+design and architecture. It aims to develop a basic understanding of the building blocks of the
+computer system and highlights how these blocks are organized together to architect a digital
+computer system.
+\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, students will be able to:\n
+1. Design Combinational Circuits using basic building blocks. Simplify these circuits using
+Boolean algebra and Karnaugh maps. Differentiate between combinational circuits and
+sequential circuits.\n
+2. Represent data in binary form, convert numeric data between different number systems and
+perform arithmetic operations in binary.\n
+3. Determine various stages of instruction cycle and describe interrupts and their handling.\n
+4. Explain how CPU communicates with memory and I/O devices.\n
+5. Simulate the design of a basic computer using a software tool\n\n
+<b>Detailed Syllabus</b>
+\n\n
+<b>Unit 1</b>
+        \n
+Digital Logic Circuits: Logic Gates, truth tables, Boolean Algebra, digital circuits,
+combinational circuits, sequential circuits, circuit simplification using Karnaugh map, Don’t
+Care Conditions, flip-flops, characteristic tables
+\n\n
+<b>Unit 2</b>
+        \n
+Digital Components: Half Adder, Full Adder, Decoders, Multiplexers, Registers and Memory
+Units
+\n\n
+<b>Unit 3</b>
+        \n
+Data Representation and Basic Computer Arithmetic: Number system, complements, fixed
+and floating point representation. Alphanumeric representation. Addition, subtraction.
+\n\n
+<b>Unit 4</b>
+        \n
+Basic Computer Organization and Design: Common Bus system, instruction codes, instruction
+format, instruction set completeness, Sequence Counter, timing and control, instruction cycle,
+memory reference instructions and their implementation using arithmetic, logical, program
+control, transfer and input output micro-operations, interrupt cycle.
+\n\n
+<b>Unit 5</b>
+        \n
+Central Processing Unit: Micro programmed Control vs Hardwired Control, lower level
+programming languages, Instruction format, accumulator, general register organization, stack
+organization, zero-address instructions, one-address instructions, two-address instructions, threeaddress instructions, Addressing Modes, RISC, CISC architectures, pipelining and parallel
+processing.
+\n\n
+<b>Unit 6</b>
+        \n
+Memory Organization and Input-Output Organization: Input-Output Organization: Peripheral
+Devices, I/O interface, I/O vs. Memory Bus, Programmed I/O, Interrupt-Driven I/O, Direct
+Memory Access.
+
+    </string>
+
+    <string name="textview1">
+        <big><big><b>
+            Programming in JAVA\n
+            (BHCS03)\n
+            Discipline Specific Core Course - (DSC)\n
+            Credit: 06</b></big></big>\n\n
+        <b>Course Objective</b>\n
+This course adds to the basic programming language skills acquired by the student in earlier
+semesters. The students are exposed to the advanced features available in Java such as exception
+handling, file handling, interfaces, packages and GUI programming.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course the student will be\n
+1. Implement Exception Handling and File Handling.\n
+2. Implement multiple inheritance using Interfaces.\n
+3. Logically organize classes and interfaces using packages.\n
+4. Use AWT and Swing to design GUI applications.\n\n
+        <b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Review of Object Oriented Programming and Java Fundamentals: Structure of Java
+programs, Classes and Objects, Data types, Type Casting, Looping Constructs.
+        \n\n
+<b>Unit 2</b>\n
+Interfaces Interface basics; Defining, implementing and extending interfaces; Implementing
+multiple inheritance using interfaces Packages Basics of packages, Creating and accessing
+packages, System packages, Creating user defined packages\n\n
+<b>Unit 3</b>\n
+Exception handling using the main keywords of exception handling: try, catch, throw, throws
+and finally; Nested try, multiple catch statements, creating user defined exceptions\n\n
+<b>Unit 4</b>\n
+File Handling Byte Stream, Character Stream, File I/O Basics, File Operations
+<b>Unit 5</b>\n
+AWT and Event Handling: The AWT class hierarchy, Events, Event sources, Event classes,
+Event Listeners, Relationship between Event sources and Listeners, Delegation event model,
+Creating GUI applications using AWT.\n\n
+<b>Unit 6</b>\n
+Swing Introduction to Swing, Swing vs. AWT, Hierarchy for Swing components, Creating GUI
+applications using Swing.\n\n
+        <big><b> Practical</b></big>\n\n
+"1. Design a class Complex having a real part (x) and an imaginary part (y). Provide methods
+to perform the following on complex numbers:
+1. Add two complex numbers.
+2. Multiply two complex numbers.
+3. toString() method to display complex numbers in the form: x + i y\n
+2. Create a class TwoDim which contains private members as x and y coordinates in
+package P1. Define the default constructor, a parameterized constructor and override
+toString() method to display the co-ordinates. Now reuse this class and in package P2
+create another class ThreeDim, adding a new dimension as z as its private member.
+Define the constructors for the subclass and override toString() method in the subclass
+also. Write appropriate methods to show dynamic method dispatch. The main() function
+should be in a package P.\n\n
+3. Define an abstract class Shape in package P1. Inherit two more classes: Rectangle in
+package P2 and Circle in package P3. Write a program to ask the user for the type of
+shape and then using the concept of dynamic method dispatch, display the area of the
+appropriate subclass. Also write appropriate methods to read the data. The main()
+function should not be in any package.\n\n
+4. Create an exception subclass UnderAge, which prints “Under Age” along with the age
+value when an object of UnderAge class is printed in the catch statement. Write a class
+exceptionDemo in which the method test() throws UnderAge exception if the variable age
+passed to it as argument is less than 18. Write main() method also to show working of the
+program.\n\n
+5. Write a program to implement stack. Use exception handling to manage underflow and
+overflow conditions.\n\n
+6. Write a program that copies content of one file to another. Pass the names of the files
+through command-line arguments.\n\n
+7. Write a program to read a file and display only those lines that have the first two
+characters as '//' (Use try with resources).\n\n
+8. Write a program to create an Applet. Create a frame as a child of applet. Implement
+mouseClicked( ), mouseEntered( ) and mouseExited( ) events for applet. Frame is visiblewhen mouse enters applet window and hidden when mouse exits from the applet window.\n\n
+9. Write a program to display a string in frame window with pink color as background.\n\n
+10. Write a program to create an Applet that has two buttons named “Red” and “Blue”. When
+a button is pressed the background color of the applet is set to the color named by the
+button’s label.\n\n
+11. Create an applet which responds to KEY_TYPED event and updates the status window
+with message (“Typed character is: X”). Use adapter class for other two events.\n\n
+12. Create an applet with two buttons labeled ‘A’ and ‘B’. When button ‘A’ is pressed, it
+displays your personal information (Name, Course, Roll No, College) and when button ‘B’
+is pressed, it displays your CGPA in previous semester.\n\n
+13. Write a program that creates a Banner and then creates a thread to scrolls the message in
+the banner from left to right across the applet’s window.\n\n
+14. Rewrite the applet programs using Swing."\n
+
+    </string>
+
+    <string name="textviewOS">
+        <big><big><b>Operating system\n
+            (BHCS06)\n
+            Discipline Specific Core Course - (DSC)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+The course introduces the students to different types of operating systems. Operating system
+modules such as memory management, process management and file management are covered in
+detail.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, the students will be able to:\n
+1. Implement multiprogramming, multithreading concepts for a small operating system.\n
+2. Create, delete, and synchronize processes for a small operating system.\n
+3. Implement simple memory management techniques.\n
+4. Implement CPU and disk scheduling algorithms.\n
+5. Use services of modern operating system efficiently\n
+6. Implement a basic file system.\n\n
+<b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Introduction: Operating systems (OS) definition, Multiprogramming and Time Sharing
+operating systems, real time OS, Multiprocessor operating systems, Multicore operating systems,
+Various computing environments.\n\n
+<b>Unit 2</b>\n
+Operating System Structures: Operating Systems services, System calls and System programs,
+operating system architecture (Micro Kernel, client server) operating\n\n
+<b>Unit 3</b>\n
+Process Management: Process concept, Operation on processes, Multi-threaded processes and
+models, Multicore systems, Process scheduling algorithms, Process synchronization. The
+Critical-section problem and deadlock characterization, deadlock handling.\n\n
+<b>Unit 4</b>\n
+        Memory Management: Physical and Logical address space; Memory allocation strategies -
+Fixed and Variable Partitions, Paging, Segmentation, Demand Paging and virtual memory, Page
+Replacement algorithm.\n\n
+<b>Unit 5</b>\n
+File and I/O Management: Directory structure, File access methods, Disk scheduling algorithms.\n\n
+ <big><b> Practical</b></big>\n\n
+1. Write a program (using fork() and/or exec() commands) where parent and child execute: a)
+same program, same code. b) same program, different code. - c) before terminating, the parent
+waits for the child to finish its task.\n\n
+2. Write a program to report behaviour of Linux kernel including kernel version, CPU type and
+model. (CPU information)\n\n
+3. Write a program to report behaviour of Linux kernel including information on 19 configured
+memory, amount of free and used memory. (memory information)\n\n
+4. Write a program to print file details including owner access permissions, file access time,
+where file name is given as argument.\n\n
+5. Write a program to copy files using system calls.\n\n
+6. Write a program to implement FCFS scheduling algorithm.\n\n
+7. Write a program to implement Round Robin scheduling algorithm.\n\n
+8. Write a program to implement SJF scheduling algorithm.\n\n
+9. Write a program to implement non-preemptive priority based scheduling algorithm.\n\n
+10. Write a program to implement preemptive priority based scheduling algorithm.\n\n
+11. Write a program to implement SRJF scheduling algorithm.\n\n
+12. Write a program to calculate sum of n numbers using thread library.\n\n
+13. Write a program to implement first-fit, best-fit and worst-fit allocation strategies.</string>
+
+    <string name="textviewCN">
+        <big><big><b>Computer Networks\n
+            (BHCS07)\n
+            Discipline Specific Core Course - (DSC)\n
+Credit: 06</b></big></big>\n\n
+        <b>Course Objective</b>\n
+This course covers the concepts of data communication and computer networks. It comprises of
+the study of the standard models for the layered protocol architecture to communicate between
+autonomous computers in a network and also the main features and issues of communication
+protocols for different layers. Topics covered comprise of introduction to OSI and TCP/IP
+models also.\n\n
+<b>Course Learning Outcomes</b>\n
+On successful completion of the course, the student will be able to:\n
+1. Describe the hardware, software components of a network and their interrelations.\n
+2. Compare OSI and TCP/IP network models.\n
+3. Describe, analyze and compare different data link, network, and transport layer protocols.\n
+4. Design/implement data link and network layer protocols in a simulated networking
+environment.\n\n
+    <b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Introduction: Types of computer networks, Internet, Intranet, Network topologies, Network
+classifications.\n\n
+<b>Unit 2</b>\n
+Network Architecture Models: Layered architecture approach, OSI Reference Model, TCP/IP
+Reference Model.\n\n
+<b>Unit 3</b>\n
+Physical Layer: Analog signal, digital signal, digital modulation techniques (ASK, PSK, QAM),
+encoding techniques, maximum data rate of a channel, transmission media (guided transmission
+media, wireless transmission, satellite communication), multiplexing (frequency division
+multiplexing, time division multiplexing, wavelength division multiplexing).\n\n
+<b>Unit 4</b>\n
+Data Link MAC Layer: Data link layer services, error-detection and correction techniques,
+error recovery protocols (stop and wait, go back n, selective repeat), multiple access protocols,
+(TDMA/FDP, CDMA/FDD/CSMA/CD, CSMA/CA), Datalink and MAC addressing, Ethernet,
+data link layer switching, point-to-point protocol.\n\n
+<b>Unit 5</b>\n
+Network layer: Networks and Inter networks, virtual circuits and datagrams, addressing, sub
+netting, Routing- (Distance vector and link state routing), Network Layer Protocols- (ARP,
+IPV4, ICMP, IPV6).\n\n
+<b>Unit 6</b>\n
+Transport and Application Layer: Process to process Delivery- (client server paradigm,
+connectionless versus connection oriented service, reliable versus unreliable); User Datagram
+Protocols, TCP/IP protocol, Flow Control.\n\n
+<b>Unit 7</b>\n
+Protocols: FTP (File Transfer protocol), SMTP (Simple, Mail Transfer Protocol), Telnet and
+remote login protocol, WWW (World Wide Web), HTTP (Hyper Text Transfer protocol),
+Uniform Resource Locator, HTML and forms.\n\n
+ <big><b> Practical</b></big>\n\n
+1. Simulate Cyclic Redundancy Check (CRC) error detection algorithm for noisy channel.\n\n
+2. Simulate and implement stop and wait protocol for noisy channel.\n\n
+        3. Simulate and implement go back n sliding window protocol.\n\n
+4. Simulate and implement selective repeat sliding window protocol.\n\n
+5. Simulate and implement distance vector routing algorithm\n\n
+6. Simulate and implement Dijkstra algorithm for shortest path routing.</string>
+
+    <string name="textviewDBMS">
+        <big><big><b>Database Management Systems\n
+            (BHCS10)\n
+            Discipline Specific Core Course -(DSC)\n
+            Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+The course introduces the foundations of database management systems focusing on significance
+of a database, relational data model, schema creation and normalization, transaction processing,
+indexing, and the relevant data structures (files and B+-trees).\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, students will:\n
+1. Describe major components of DBMS and their functions\n
+2. Model an application’s data requirements using conceptual modelling tools like ER diagrams
+and design database schemas based on the conceptual model.\n
+3. Write queries in relational algebra / SQL\n
+4. Normalize a given database schema to avoid data anomalies and data redundancy.\n
+5. Describe the notions of indexes, views, constraints and transactions.\n\n
+<b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Introduction to databases: Characteristics of database approach, data models, database system
+architecture, data independence and data abstraction.\n\n
+<b>Unit 2</b>\n
+Data modeling: Entity relationship (ER) modeling: Entity types, relationships, constraints, ER
+diagrams, EER model\n\n
+<b>Unit 3</b>\n
+Relation data model: Relational model concepts, relational constraints, relational algebra.\n\n
+<b>Unit 4</b>\n
+SQL queries: SQL data definition, data types, specifying constraints, Queries for retrieval,
+insertion, deletion, updation, introduction to views.\n\n
+<b>Unit 5</b>\n
+Database design: Mapping ER/EER model to relational database, functional dependencies,
+Lossless decomposition, Normal forms (upto BCNF).\n\n
+        <b>Unit 6</b>\n
+Transaction and data storage: Introduction to transaction processing: ACID properties,
+concurrency control; Introduction to indexing structures for files.\n\n
+ <big><b> Practical</b></big>\n\n
+Create and use the following database schema to answer the given queries.\n
+EMPLOYEE Schema\n
+Field Type NULL KEY\n
+DEFAULT\n
+Eno Char(3) NO PRI NIL\n
+Ename Varchar(50) NO NIL\n
+Job_type Varchar(50) NO NIL\n
+Manager Char(3) Yes FK NIL\n
+Hire_date Date NO NIL\n
+Dno Integer YES FK NIL\n
+Commission Decimal(10,2) YES NIL\n
+Salary Decimal(7,2) NO NIL\n
+DEPARTMENT Schema\n
+Field Type NULL KEY\n
+DEFAULT\n
+Dno Integer No PRI NULL\n
+Dname Varchar(50) Yes NULL\n
+Location Varchar(50) Yes New Delhi\n
+Query List\n\n
+1. Query to display Employee Name, Job, Hire Date, Employee Number; for each employee with
+the Employee Number appearing first.\n\n
+        2. Query to display unique Jobs from the Employee Table.\n\n
+3. Query to display the Employee Name concatenated by a Job separated by a comma.\n\n
+4. Query to display all the data from the Employee Table. Separate each Column by a comma
+and name the said column as THE_OUTPUT.\n\n
+5. Query to display the Employee Name and Salary of all the employees earning more than
+$2850.\n\n
+6. Query to display Employee Name and Department Number for the Employee No= 7900.\n\n
+7. Query to display Employee Name and Salary for all employees whose salary is not in the
+range of $1500 and $2850.\n\n
+8. Query to display Employee Name and Department No. of all the employees in Dept 10 and
+Dept 30 in the alphabetical order by name.\n\n
+9. Query to display Name and Hire Date of every Employee who was hired in 1981.\n\n
+10. Query to display Name and Job of all employees who don’t have a current Manager.\n\n
+11. Query to display the Name, Salary and Commission for all the employees who earn
+commission.\n\n\n
+12. Sort the data in descending order of Salary and Commission.\n\n
+13. Query to display Name of all the employees where the third letter of their name is ‘A’.\n\n
+14. Query to display Name of all employees either have two ‘R’s or have two ‘A’s in their name
+and are either in Dept No = 30 or their Manger’s Employee No = 7788.\n\n
+15. Query to display Name, Salary and Commission for all employees whose Commission
+amount is 14 greater than their Salary increased by 5%.\n\n
+16. Query to display the Current Date.\n\n
+17. Query to display Name, Hire Date and Salary Review Date which is the 1st Monday after six
+months of employment.\n\n
+18. Query to display Name and calculate the number of months between today and the date each
+employee was hired.\n\n
+        19. Query to display the following for each employee <![CDATA[
+    <E-Name>earns < Salary>
+   monthly but
+wants < 3 * Current Salary >. Label the Column as Dream Salary.\n\n
+20. Query to display Name with the 1st letter capitalized and all other letter lower case and
+length of their name of all the employees whose name starts with ‘J’, ’A’ and ‘M’.\n\n
+21. Query to display Name, Hire Date and Day of the week on which the employee started.\n\n
+22. Query to display Name, Department Name and Department No for all the employees.\n\n
+23. Query to display Unique Listing of all Jobs that are in Department # 30.\n\n
+24. Query to display Name, Dept Name of all employees who have an ‘A’ in their name.\n\n
+25. Query to display Name, Job, Department No. And Department Name for all the employees
+working at the Dallas location.\n\n
+26. Query to display Name and Employee no. Along with their Manger’s Name and the
+Manager’s employee no; along with the Employees’ Name who do not have a Manager.\n\n
+27. Query to display Name, Dept No. And Salary of any employee whose department No. and
+salary matches both the department no. And the salary of any employee who earns a
+commission.\n\n
+28. Query to display Name and Salaries represented by asterisks, where each asterisk (*)
+signifies $100.\n\n
+29. Query to display the Highest, Lowest, Sum and Average Salaries of all the employees\n\n
+30. Query to display the number of employees performing the same Job type functions.\n\n
+31. Query to display the no. of managers without listing their names.\n\n
+32. Query to display the Department Name, Location Name, No. of Employees and the average
+salary for all employees in that department.\n\n
+33. Query to display Name and Hire Date for all employees in the same dept. as Blake.\n\n
+34. Query to display the Employee No. And Name for all employees who earn more than the
+average salary.\n\n
+35. Query to display Employee Number and Name for all employees who work in a department
+with any employee whose name contains a ‘T’.36. Query to display the names and salaries of all employees who report to King.\n\n
+37. Query to display the department no, name and job for all employees in the Sales department
+    ]]>></string>
+
+    <string name="textviewMICRO">
+        <big><big><b>Microprocessors\n
+            (BHCS16B)\n
+            Discipline Specific Elective - (DSE)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+This course introduces internal architecture, programming model of Intel Microprocessors (8086
+-Pentium) and assembly language programming using an assembler. Students will also learn
+interfacing of memory and I/O devices with microprocessor.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, students will be able to:\n
+1. Describe the internal architecture of Intel microprocessors\n
+2. Define and implement interfaces between the microprocessor and the devices.\n
+3. Write assembly language programs\n\n
+<b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Microprocessor architecture: Internal architecture, Programming Model, Addressing modes,
+Data movement instructions\n\n
+<b>Unit 2</b>\n
+Microprocessor programming: Register Organization, instruction formats, Program control
+instructions, assembly language\n\n
+<b>Unit 3</b>\n
+Interfacing: Bus timings, Memory address decoding, cache memory and cache controllers, I/O
+interface,
+keyboard,
+timer,
+Interrupt
+controller,
+DMA
+controller,
+video
+controllers,
+communication interfaces.\n\n
+<b>Unit 4</b>\n
+Data transfer schemes: Synchronous data transfer, asynchronous data transfer, interrupt driven
+data transfer, DMA mode data transfer.\n\n
+<b>Unit 5</b>\n
+Microprocessor controllers: I/O controllers, interrupt controller, DMA controller, USART
+controller.\n\n
+<b>Unit 6</b>\n
+Advance microprocessor architecture: CISC architecture, RISC architecture, superscalar
+architecture, multicore architecture\n\n
+ <big><b> Practical</b></big>\n\n
+ASSEMBLY LANGUAGE PROGRAMMING\n
+1. Write a program for 32-bit binary division and multiplication\n\n
+2. Write a program for 32-bit BCD addition and subtraction\n\n
+3. Write a program for Linear search and binary search.\n\n
+    4. Write a program to add and subtract two arrays\n\
+5. Write a program for binary to ascii conversion\n\n
+6. Write a program for ascii to binary conversion</string>
+
+    <string name="textviewPY" tools:ignore="TypographyEllipsis">
+        <big><big><b>Programming in Python\n
+            (BHCS19B)\n
+            Skill-Enhancement Elective Course - (SEC)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+This course is designed to introduce the student to the basics of programming using Python. The
+course covers the topics essential for developing well documented modular programs using
+different instructions and built-in data structures available in Python.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, students will be able to:\n
+1. Develop, document, and debug modular python programs to solve computational problems.\n
+2. Select a suitable programming construct and data structure for a situation.\n
+3. Use built-in strings, lists, sets, tuples and dictionary in applications.\n
+4. Define classes and use them in applications.
+5. Use files for I/O operations.\n\n
+<b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Introduction to Programming using Python: Structure of a Python Program, Functions,
+Interpreter shell, Indentation. Identifiers and keywords, Literals, Strings, Basic operators
+(Arithmetic operator, Relational operator, Logical or Boolean operator, Assignment Operator,
+Bit wise operator).\n\n
+<b>Unit 2</b>\n
+Building blocks of Python: Standard libraries in Python, notion of class, object and method.\n\n
+<b>Unit 3</b>\n
+Creating Python Programs: Input and Output Statements, Control statements:-branching,
+looping, Exit function, break, continue and pass, mutable and immutable structures. Testing and
+debugging a program\n\n
+<b>Unit 4</b>\n
+Built-in data structures: Strings, lists, Sets, Tuples and Dictionary and associated operations.
+Basic searching and sorting methods using iteration and recursion.\n\n
+<b>Unit 5</b>\n
+Visualization using 2D and 3D graphics: Visualization using graphical objects like Point, Line,
+Histogram, Sine and Cosine Curve, 3D objects\n\n
+<b>Unit 6</b>\n
+Exception Handling and File Handling: Reading and writing text and structured files, Errors
+and Exceptions.\n\n
+ <big><b> Practical</b></big>\n\n
+1. Execution of expressions involving arithmetic, relational, logical, and bitwise operators n the shell window of Python IDLE.\n\n
+2. Write a Python function to produce the outputs such as:\n
+a)\n
+*\n
+***\n
+*****\n
+***\n
+*\n
+(b)\n
+1\n
+232\n
+34543\n
+4567654\n
+567898765\n\n
+3. Write a Python program to illustrate the various functions of the “Math” module.\n\n
+4. Write a function that takes the lengths of three sides: side1, side2 and side3 of the
+triangle as the input from the user using input function and return the area of the
+triangle as the output. Also, assert that sum of the length of any two sides is greater
+than the third side.\n\n
+5. Consider a showroom of electronic products, where there are various salesmen. Each
+salesman is given a commission of 5%, depending on the sales made per month. In case
+the sale done is less than 50000, then the salesman is not given any commission. Write
+a function to calculate total sales of a salesman in a month, commission and remarks
+for the salesman. Sales done by each salesman per week is to be provided as input.
+Assign remarks according to the following criteria:\n
+Excellent: Sales >=80000\n
+Good: Sales>=60000 and  <![CDATA[
+
+  <80000\n
+Average: Sales>=40000 and <60000\n
+Work Hard: Sales < 40000\n\n
+6. Write a Python function that takes a number as an input from the user and computes its
+factorial.\n\n
+7. Write a Python function to return nth terms of Fibonacci sequence\n\n
+8. Write a function that takes a number with two or more digits as an input and finds its
+reverse and computes the sum of its digits.\n\n
+9. Write a function that takes two numbers as input parameters and returns their least
+common multiple and highest common factor.\n\n
+10. Write a function that takes a number as an input and determine whether it is prime or
+not.\n\n
+11. Write a function that finds the sum of the n terms of the following series:
+a) 1 – x2 /2! + x4 /4! – x6 /6! + … xn /n! b) 1 + x2 /2! + x4 /4! + x6 /6! + … xn /n!\n\n
+12. Write a Python function that takes two strings as an input from the user and counts the
+number of matching characters in the given pair of strings.\n\n
+13. Write a Python function that takes a string as an input from the user and displays its
+reverse.\n\n
+14. Write a Python function that takes a string as an input from the user and determines
+whether it is palindrome or not.\n\n
+15. Write a Python function to calculate the sum and product of two compatible matrices\n
+16. Write a function that takes a list of numbers as input from the user and produces the
+corresponding cumulative list where each element in the list present at index i is the
+sum of elements at index j <= i.\n\n
+17. Write a function that takes n as an input and creates a list of n lists such that ith list
+contains first five multiples of i.\n\n
+18. Write a function that takes a sentence as input from the user and calculates the
+frequency of each letter. Use a variable of dictionary type to maintain the count.\n\n
+19. Write a Python function that takes a dictionary of word:meaning pairs as an input from
+the user and creates an inverted dictionary of the form meaning:list-of-words.\n\n
+20. Usage of Python debugger tool-pydb and PythonTutor.\n\n
+21. Implementation of Linear and binary search techniques\n\n
+22. Implementation of selection sort, insertion sort, and bubble sort techniques\n\n
+23. Write a menu-driven program to create mathematical 3D objects
+Curve, Sphere, Cone, Arrow, Ring, Cylinder.\n\n
+24. Write a program that makes use of a function to accept a list of n integers and
+displays a histogram.\n\n
+25. Write a program that makes use of a function to display sine, cosine, polynomial and
+exponential curves.\n\n
+26. Write a program that makes use of a function to plot a graph of people with pulse rate
+p vs. height h. The values of p and h are to be entered by the user.\n\n
+27. Write a function that reads a file file1 and displays the number of words and the
+number of vowels in the file.\n\n
+28. Write a Python function that copies the content of one file to another.\n\n
+29. Write a function that reads a file file1 and copies only alternative lines to another file
+file2. Alternative lines copied should be the odd numbered lines.\n\n
+    ]]></string>
+
+    <string name="textviewAI">
+        <big><big><b>Artificial Intelligence\n
+            (BHCS13)\n
+            Discipline Specific Core Course - (DSC)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+This course introduces the basic concepts and techniques of Artificial Intelligence (AI). The
+course aims to introduce intelligent agents and reasoning, heuristic search techniques, game
+playing, knowledge representation, reasoning with uncertain knowledge.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of this course, students will be able to:\n
+1. Identify problems that are amenable to solution by specific AI methods\n
+2. Represent knowledge in Prolog and write code for drawing inferences.\n
+3. Identify appropriate AI technique for the problem at hand\n
+4. Compare strengths and weaknesses of different artificial Intelligence techniques.\n
+5. Sensitive towards development of responsible Artificial Intelligence\n\n
+<b>Detailed Syllabus</b>\n\n
+    <b>Unit 1</b>\n
+Introduction: Introduction to artificial intelligence, background and applications, Turing test,
+rational agents, intelligent agents, structure, behaviour and environment of intelligent agents.\n\n
+<b>Unit 2</b>\n
+Knowledge Representation: Propositional logic, first order predicate logic, resolution principle,
+unification, semantic nets, conceptual dependencies, frames, scripts, production rules, conceptual
+graphs.\n\n
+<b>Unit 3</b>\n
+Reasoning with Uncertain Knowledge: Uncertainty, non-monotonic reasoning, truth
+maintenance systems, default reasoning and closed world assumption, Introduction to
+probabilistic reasoning, Bayesian probabilistic inference, introduction to fuzzy sets and fuzzy
+logic, reasoning using fuzzy logic.\n\n
+<b>Unit 4</b>\n
+Problem Solving and Searching Techniques: Problem characteristics, production systems,
+control strategies, breadth first search, depth first search, hill climbing and its variations,
+heuristics search techniques: best first search, A* algorithm, constraint satisfaction problem,
+means-end analysis.\n\n
+<b>Unit 5</b>\n
+Game Playing: introduction to game playing, min-max and alpha-beta pruning algorithms.
+Prolog Programming: Introduction to Programming in Logic (PROLOG), Lists, Operators,
+basic Input and Output.\n\n
+<b>Unit 6</b>\n
+Understanding Natural Languages: Overview of linguistics, Chomsky hierarchy of grammars,
+parsing techniques.\n\n
+<b>Unit 7</b>\n
+Ethics in AI, Fairness in AI, Legal perspective\n\n
+ <big><b> Practical</b></big>\n\n
+1. Write a prolog program to calculate the sum of two numbers.\n\n
+2. Write a Prolog program to implement max(X, Y, M) so that M is the maximum of two
+numbers X and Y.\n\n
+3. Write a program in PROLOG to implement factorial (N, F) where F represents the
+factorial of a number N.\n\n
+    4. Write a program in PROLOG to implement generate_fib(N,T) where T represents the Nth
+term of the fibonacci series.\n\n
+5. Write a Prolog program to implement GCD of two numbers.\n\n
+6. Write a Prolog program to implement power (Num,Pow, Ans) : where Num is raised to
+the power Pow to get Ans.\n\n
+7. Prolog program to implement multi (N1, N2, R) : where N1 and N2 denotes the numbers
+to be multiplied and R represents the result.\n\n
+8. Write a Prolog program to implement memb(X, L): to check whether X is a member of L
+or not.\n\n
+9. Write a Prolog program to implement conc (L1, L2, L3) where L2 is the list to be
+appended with L1 to get the resulted list L3.\n\n
+10. Write a Prolog program to implement reverse (L, R) where List L is original and List R is
+reversed list.\n\n
+11. Write a program in PROLOG to implement palindrome (L) which checks whether a list L
+is a palindrome or not.\n\n
+12. Write a Prolog program to implement sumlist(L, S) so that S is the sum of a given list L.\n\n
+13. Write a Prolog program to implement two predicates evenlength(List) and
+oddlength(List) so that they are true if their argument is a list of even or odd length
+respectively.\n\n
+14. Write a Prolog program to implement nth_element (N, L, X) where N is the desired
+position, L is a list and X represents the Nth element of L.\n\n
+15. Write a Prolog program to implement maxlist(L, M) so that M is the maximum number in
+the list.\n\n
+16. Write a prolog program to implement insert_nth (I, N, L, R) that inserts an item I into Nth
+position of list L to generate a list R.\n\n
+17. Write a Prolog program to implement delete_nth (N, L, R) that removes the element on
+Nth position from a list L to generate a list R.\n\n
+18. Write a program in PROLOG to implement merge (L1, L2, L3) where L1 is first ordered
+list and L2 is second ordered list and L3 represents the merged list.</string>
+
+    <string name="textviewC">
+        <big><big><b>Programming Fundamentals using C++\n
+            (BHCS01)\n
+            Discipline Specific Core Course - (DSC)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+This course is designed to develop structured as well as object-oriented programming skills using
+C++ programming language. The course not only focuses on basic C++ constructs but also
+covers object-oriented programming features in-depth, namely Encapsulation, Abstraction,
+Inheritance and Polymorphism for writing efficient codes.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, students will be able to:\n
+1. Explain significance of object oriented paradigm\n
+    2. Solve programming problems using object oriented features.\n
+3. Handle external files as well as exceptions.\n
+4. Reuse classes to create new classes.\n
+5. Handle exceptions in programs.\n
+<b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Introduction
+to C++:
+Overview of Procedural
+Programming and Object-Oriented
+Programming, Using main () function, Header Files, Compiling and Executing Simple Programs
+in C++.\n\n
+<b>Unit 2</b>\n
+Programming Fundamentals: Data types, Variables, Operators, Expressions, Arrays,
+Keywords, Naming Convention, Decision making constructs (if, switch), Looping (for, while,
+do…while),
+Type
+Casting,
+Input-output
+statements,
+Functions,
+Command
+Line
+Arguments/Parameters.\n\n
+<b>Unit 3</b>\n
+Object Oriented Programming: Overview of Abstraction, Encapsulation, Inheritance, and
+Polymorphism. Creating Classes and objects, Modifiers and Access Control, Constructors,
+Implementation of Inheritance (Single and multilevel), Implementation of Polymorphism
+(Function Overloading and Operator Overloading, Function Overriding).\n\n
+<b>Unit 4</b>\n
+Pointers and References: Static and dynamic memory allocation, Pointer and Reference
+Variables, Pointers vs. References, Implementing Runtime polymorphism using pointers and
+references.\n\n
+<b>Unit 5</b>\n
+Exception and File Handling: Using try, catch, throw, throws and finally; Nested try, creating
+user defined exceptions, File I/O Basics, File Operations.\n\n
+ <big><b> Practical</b></big>\n\n
+1. Write a program to compute the sum of the first n terms of the following series:
+S = 1 - 1 / (2 ^ 2) + 1 / (3 ^ 3) - ... 1 / (n ^ n)
+where ^ is exponentiation.
+The number of terms n is to be taken from user through command line. If command line
+    argument is not found then prompt the user to enter the value of n.\n\n
+2. Write a program to remove the duplicates from an array.\n\n
+3. Write a program that prints a table indicating the number of occurrences of each alphabet
+in the text entered as command line arguments.\n\n
+4. Write a menu driven program to perform following operations on strings (without using
+inbuilt string functions):\n
+a) Show address of each character in string\n
+b) Concatenate two strings.\n
+c) Compare two strings\n
+d) Calculate length of the string (use pointers)\n
+e) Convert all lowercase characters to uppercase\n
+f) Reverse the string\n\n
+5. Write a program to merge two ordered arrays to get a single ordered array.\n\n
+6. Write a program to search a given element in a set of N numbers using Binary search
+(i) with recursion (ii) without recursion.\n\n
+7. Write a program to calculate GCD of two numbers (i) with recursion (ii) without
+recursion.\n\n
+8. Create Matrix class. Write a menu-driven program to perform following Matrix
+operations:\n
+a) Sum\n
+b) Product\n
+c) Transpose\n\n
+9. Define a class Person having name as a data member. Inherit two classes Student and
+Employee from Person. Student has additional attributes as course, marks and year and
+Employee has department and salary. Write display() method in all the three classes to
+display the corresponding attributes. Provide the necessary methods to show runtime
+polymorphism.\n\n
+10. Create a class Triangle. Include overloaded functions for calculating area. Overload
+assignment operator and equality operator.\n\n
+11. Write a program to read two numbers p and q. If q is 0 then throw an exception else
+display the result of p/q.\n\n
+12. Rewrite Matrix class of Q8 with exception handling. Exceptions should be thrown by
+the functions if matrices passed to them are incompatible and handled by main() function.\n\n
+    13. Create a class Student containing fields for Roll No., Name, Class, Year and Total
+Marks. Write a program to store 5 objects of Student class in a file. Retrieve these records
+from file and display them.\n\n
+14. Copy the contents of one text file to another file, after removing all whitespaces.</string>
+
+    <string name="textviewSOP">
+        <big><big><b>System Programming \n
+            (BHCS15B) \n
+            Discipline Specific Elective - (DSE)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+The course is focused on design of assembler and basic compiler. The course covers topics like
+absolute loader, relocating loader and dynamic linking.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, the students will be able to:\n
+1. Describe the working of assemblers and compilers.\n
+2. Use Lex/ Yacc for building basic compiler.\n
+3. Develop a two pass Assemblers.\n
+4. Describe the role of the loaders, linkers and relocatable programs.\n\n
+<b>Detailed Syllabus</b>\n\n
+<b>Unit 1</b>\n
+Assemblers <![CDATA[
+
+  & Loaders, Linkers: One pass and two pass assembler, design of an assembler,
+Absolute loader, relocation and linking concepts, relocating loader and Dynamic Linking.]]>\n\n
+<b>Unit 2</b>\n
+Introduction: Overview of compilation, Phases of a compiler.\n\n
+<b>Unit 3</b>\n
+Lexical Analysis: Role of a Lexical analyzer, Specification and recognition of tokens, Symbol
+table, lexical Analyzer Generator.\n\n
+<b>Unit 4</b>\n<![CDATA[
+Parsing & Intermediate representations: Bottom up parsing- LR parser, yacc,three address
+code generation, syntax directed translation, translation of types, control statements]]>\n\n
+<b>Unit 5</b>\n<![CDATA[
+Storage organization & Code generation: Activation records, stack allocation, Object code
+generation]]>\n\n
+     <big><b> Practical</b></big>\n\n
+Projects to implement an assembler for a hypothetical language.\n
+Programs to get familiar with Lex and Yacc\n\n
+1. Write a Lex program to count the number of lines and characters in the input file.\n\n
+2. Write a Lex program that implements the Caesar cipher: it replaces every letter with the one
+three letters after in in alphabetical order, wrapping around at Z. e.g. a is replaced by d, b by e,
+and so on z by c.\n\n
+3. Write a Lex program that finds the longest word (defined as a contiguous string of upper and
+lower case letters) in the input.\n\n
+4. Write a Lex program that distinguishes keywords, integers, floats, identifiers, operators, and
+comments in any simple programming language.\n\n
+5. Write a Lex program to count the number of identifiers in a C file.\n\n
+6. Write a Lex program to count the number of words, characters, blank spaces and lines in a C
+file.\n\n
+7. Write a Lex specification program that generates a C program which takes a string “abcd” and
+prints the following output\n
+abcd\n
+abc\n
+a\n
+8. A program in Lex to recognize a valid arithmetic expression.\n\n
+9. Write a YACC program to find the validity of a given expression (for operators + - * and /)A
+program in YACC which recognizes a valid variable which starts with letter followed by a digit.
+The letter should be in lowercase only.\n\n
+10. A Program in YACC to evaluate an expression (simple calculator program for addition and
+subtraction, multiplication, division).\n\n
+11. Program in YACC to recognize the string „abbb‟, „ab‟ „a‟ of the langauge (an b n , n>=1).\n\n
+12. Program in YACC to recognize the language (an b , n>=10). (output to say input is valid or
+not)</string>
+
+    <string name="textviewTOC">
+        <big><big><b>Theory of Computation \n
+            (BHCS12) \n
+            Discipline Specific Core Course - (DSC)\n
+Credit: 06</b></big></big>
+        \n\n
+<b>Course Objective</b>\n
+This course introduces formal models of computation, namely, finite automaton, pushdown
+automaton, and Turing machine; and their relationships with formal languages. Students will also
+learn about the limitations of computing machines.\n\n
+<b>Course Learning Outcomes </b>
+        \n
+On successful completion of the course, a student will be able to:\n
+1. Design a finite automaton, pushdown automaton or a Turing machine for a problem at hand.\n
+2. Apply pumping lemma to prove that a language is non-regular/non-context-free.\n
+3. Describe limitations of a computing machine.\n\n
+<b>Detailed Syllabus</b>\n\n
+    <b>Unit 1</b>\n
+Languages: Alphabets, string, language, basic operations on language, concatenation, union,
+Kleene star.\n\n
+<b>Unit 2</b>\n
+Regular Expressions and Finite Automata: Regular expressions, Deterministic finite automata
+(DFA).\n\n
+<b>Unit 3</b>\n
+Regular Languages: Non-deterministic Finite Automata (NFA), relationship between NFA and
+DFA, Transition Graphs (TG), properties of regular languages, the relationship between regular
+languages and finite automata, "Kleene's Theorem".\n\n
+<b>Unit 4</b>\n
+Non-Regular Languages and Context Free Grammars: Pumping lemma for regular
+grammars, Context-Free Grammars (CFG),\n\n
+<b>Unit 5</b>\n
+Context-Free Languages (CFL) and PDA: Deterministic and non-deterministic Pushdown
+Automata (PDA), parse trees, leftmost derivation, pumping lemma for CFL, properties of CFL.\n\n
+<b>Unit 6</b>\n
+Turing Machines and Models of Computations: Turing machine as a model of computation,
+configuration of simple Turing machine, Church Turing Thesis, Universal Turing Machine,
+decidability, halting problem.\n\n
+ <big><b> Practical</b></big>\n\n
+Tutorials based on theory.</string>
+</resources>
